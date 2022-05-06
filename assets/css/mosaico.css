@@ -1,0 +1,106 @@
+:root {
+  --anchocel: 20px;
+  --bordecel: 1px;
+}
+
+@font-face {
+  font-family: 'ScreenMatrix';
+  src: url('../font/ScreenMatrix.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'ScreenMatrix', sans-serif;
+  font-size: 3.5em !important;
+  color: olive !important;
+  margin-bottom: 0 !important;
+  line-height: 0.75 !important;
+}
+
+#logo {
+  width: 0.75em;
+  vertical-align:baseline;
+  margin-right: 0.25em;
+}
+
+body {
+  margin: 2em auto;
+  max-width: 50em;
+  background: #fff url(../img/mosaico-bg.png) center/cover no-repeat;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+nav {
+  margin-top: 1em;
+}
+
+button {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid darkgray;
+  cursor: pointer;
+}
+
+.seleccion {
+  box-shadow: inset 2px 2px 5px darkslategray;
+}
+
+table {
+  width: auto !important;
+  margin: 0 auto;
+  margin-top: 1.5em !important;
+  border-collapse: collapse;
+}
+
+table {
+  border: calc(var(--bordecel) * 2) solid darkgray !important;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+tr,
+td {
+  border: var(--bordecel) solid darkgray !important;
+}
+
+td {
+  width: var(--anchocel) !important;
+  height: var(--anchocel) !important;
+  padding: 0 !important;
+  cursor: crosshair;
+}
+
+.negro {
+  background-color: #000;
+}
+
+.azul {
+  background-color: #00f;
+}
+
+.rojo {
+  background-color: #f00;
+}
+
+.magenta {
+  background-color: #f0f;
+}
+
+.verde {
+  background-color: #0f0;
+}
+
+.cian {
+  background-color: #0ff;
+}
+
+.amarillo {
+  background-color: #ff0;
+}
+
+.blanco {
+  background-color: #fff;
+}
