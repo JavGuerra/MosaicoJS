@@ -1,7 +1,7 @@
 Mosaico en JavaScript
 =====================
 
-Juego de pintar con colores sobre un mosaico.
+PixelArt. Juego de pintar con colores sobre un mosaico
 
 ¡Elije un color y haz clic en el mosaico para pintar!
 
