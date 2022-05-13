@@ -8,6 +8,12 @@
   src: url('../font/ScreenMatrix.ttf') format('truetype');
 }
 
+body {
+  margin: 2em auto;
+  max-width: 50em;
+  background: #fff url(../img/mosaico-bg.png) center/cover no-repeat;
+}
+
 h1 {
   font-family: 'ScreenMatrix', sans-serif;
   font-size: 3.5em !important;
@@ -22,10 +28,8 @@ h1 {
   margin-right: 0.25em;
 }
 
-body {
-  margin: 2em auto;
-  max-width: 50em;
-  background: #fff url(../img/mosaico-bg.png) center/cover no-repeat;
+small {
+  font-size: 0.75em;
 }
 
 header,
