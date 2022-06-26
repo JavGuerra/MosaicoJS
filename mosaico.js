@@ -53,4 +53,4 @@ function creaTabla(numCols, numFils) {
 function el(el) { return document.querySelector(el); }
 
 // Crea un elemento nuevo
-function creaEl(el) { return document.createElement(el);  }
+function creaEl(el) { return document.createElement(el); }
