@@ -16,15 +16,15 @@ body {
 
 h1 {
   font-family: 'ScreenMatrix', sans-serif;
-  font-size: 3.5em !important;
-  color: olive !important;
-  margin-bottom: 0 !important;
-  line-height: 0.75 !important;
+  font-size: 3.5em;
+  line-height: 0.75em;
+  color: olive;
+  margin-bottom: 0;
 }
 
 #logo {
   width: 0.75em;
-  vertical-align:baseline;
+  vertical-align: baseline;
   margin-right: 0.25em;
 }
 
@@ -41,8 +41,24 @@ nav {
   margin-top: 1em;
 }
 
+table {
+  width: auto;
+  margin: 1.5em auto;
+  border: calc(var(--bordecel) * 2) solid darkgray;
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+td {
+  width: var(--anchocel);
+  height: var(--anchocel);
+  padding: 0;
+  border: var(--bordecel) solid darkgray;
+  cursor: crosshair;
+}
+
 button {
-  width: 35px;
+  width:  35px;
   height: 35px;
   border-radius: 20px;
   border: 1px solid darkgray;
@@ -51,30 +67,6 @@ button {
 
 .seleccion {
   box-shadow: inset 2px 2px 5px darkslategray;
-}
-
-table {
-  width: auto !important;
-  margin: 0 auto;
-  margin-top: 1.5em !important;
-  border-collapse: collapse;
-}
-
-table {
-  border: calc(var(--bordecel) * 2) solid darkgray !important;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
-}
-
-tr,
-td {
-  border: var(--bordecel) solid darkgray !important;
-}
-
-td {
-  width: var(--anchocel) !important;
-  height: var(--anchocel) !important;
-  padding: 0 !important;
-  cursor: crosshair;
 }
 
 .negro {
@@ -89,7 +81,7 @@ td {
   background-color: #f00;
 }
 
-.magenta {
+.magen {
   background-color: #f0f;
 }
 
@@ -101,10 +93,10 @@ td {
   background-color: #0ff;
 }
 
-.amarillo {
+.amari {
   background-color: #ff0;
 }
 
-.blanco {
+.blanc {
   background-color: #fff;
 }
